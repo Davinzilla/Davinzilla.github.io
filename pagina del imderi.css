@@ -141,45 +141,17 @@ footer {
     text-align: center;
     padding: 20px 0;
     position: relative;
-    bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Ajusta el margen superior según sea necesario */
+    box-sizing: border-box; /* Asegura que el padding no desborde el contenido */
 }
 
-.content dt {
-    font-size: 1.6em;
-    padding: 10px;
-    margin: 5px 0;
-    background-color: rgb(255, 136, 67);
-    border-radius: 8px;
+footer p {
+    margin: 0; /* Remueve cualquier margen adicional */
+    padding: 0 10px; /* Asegura que el texto no se pegue a los bordes */
 }
 
-/* Estilos para la tabla */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 12px;
-    text-align: left;
-}
-
-th {
-    background-color: #1b3d7e;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Estilos para el botón de "Ir al Inicio" */
 .btn-ir-inicio {
     position: fixed;
     bottom: 20px;
