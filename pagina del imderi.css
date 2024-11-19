@@ -5,8 +5,9 @@ body {
     background: linear-gradient(to right, #364d64, #49566d);
     color: #333;
 }
+
 /* Estilos para el banner con imagen de fondo */
-.banner{
+.banner {
     position: relative;
     height: 340px; /* Ajusta la altura según sea necesario */
     background: url('imagen\ de\ prueba.jpg') no-repeat center center;
@@ -14,14 +15,12 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    
 }
 
 .banner h1 {
     position: relative;
     z-index: 2;
 }
-
 
 .banner::before {
     content: "";
@@ -202,4 +201,41 @@ tr:nth-child(even) {
 
 .btn-ir-inicio:hover {
     background-color: #d46001;
+}
+
+/* Media Queries para hacer la página responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .banner {
+        height: 200px; /* Ajusta la altura para pantallas más pequeñas */
+    }
+
+    main {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .content div {
+        margin: 15px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a, .dropdown .dropbtn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .content div {
+        padding: 15px;
+    }
+
+    .btn-ir-inicio {
+        padding: 8px 16px;
+        font-size: 20px;
+    }
 }
