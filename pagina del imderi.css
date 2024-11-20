@@ -134,6 +134,28 @@ main {
     margin: 5px;
     border-radius: 8px;
 }
+/* Estilos para la tabla del cronograma */
+.cronograma-table {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+}
+
+.cronograma-table th, .cronograma-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.cronograma-table thead {
+    background-color: #1b3d7e;
+    color: white;
+}
+
+.cronograma-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
 
 footer {
     background-color: #1e90ff;
@@ -150,6 +172,12 @@ footer {
 footer p {
     margin: 0; /* Remueve cualquier margen adicional */
     padding: 0 10px; /* Asegura que el texto no se pegue a los bordes */
+}
+.footerimg 
+{ display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0 10px;
 }
 
 .btn-ir-inicio {
