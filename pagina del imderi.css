@@ -135,24 +135,24 @@ main {
     border-radius: 8px;
 }
 /* Estilos para la tabla del cronograma */
-.cronograma-table {
+.cronogramatable {
     width: 50%;
     margin: 20px auto;
     font-size: 18px;
     text-align: left;
 }
 
-.cronograma-table th, .cronograma-table td {
+.cronogramatable th, .cronograma-table td {
     padding: 12px 15px;
     border: 1px solid #ddd;
 }
 
-.cronograma-table thead {
+.cronogramatable thead {
     background-color: #1b3d7e;
     color: white;
 }
 
-.cronograma-table tbody tr:nth-of-type(even) {
+.cronogramatable tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
